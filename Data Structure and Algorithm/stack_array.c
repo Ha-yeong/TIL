@@ -56,7 +56,7 @@ int main(void)
 	create();
 
 	while(1){
-		printf("\nwhat do you want to do?\n  push: 's'\n  pull: 'p'\n  exit: 'x'\n  ");
+		printf("\nwhat do you want to do?\n  push: 's'\n  pop: 'p'\n  exit: 'x'\n  ");
 		scanf("%s", &choice);
 
 		switch(choice){
